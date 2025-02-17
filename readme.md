@@ -26,3 +26,5 @@ The idea behind the project is to:
 ### **Test your own intuition**  
 by participating in the game (once Stage 1 MVP is live)!
 
+✨ **Please, star this repo, if you like the idea, if intrested in future colaboration and if you want to receive airdrops if the project grows** ✨
+
