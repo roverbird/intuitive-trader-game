@@ -1,0 +1,93 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+
+\title{Gamification of Financial Prediction: A Crowd-Sourced Experiment in Intuition}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper proposes a framework for gamifying financial return predictions using human intuition and data-driven validation. Participants predict market returns presented as a "pack of cards," each corresponding to high returns, no returns, or negative returns. Players' performance is tracked, with those showing statistically significant predictive abilities advancing to higher levels. Aggregated results from successful players are used to generate prediction signals, which are benchmarked in financial modeling competitions like Numer.ai. The goal is to explore whether human intuition can be harnessed to enhance machine learning models in financial decision-making.
+\end{abstract}
+
+\section{Introduction}
+
+Financial markets are complex, influenced by both fundamental factors and behavioral biases. While machine learning models dominate quantitative finance, human intuition---especially when structured through gamification and iterative learning---remains underexplored. Gamification in finance often takes the form of trading simulators, but this project introduces a novel approach: presenting financial data as a guessing game. This study aims to test if certain individuals can develop and refine their intuition through structured practice, and whether these insights can provide meaningful predictive signals.
+
+\subsection{System 1 Thinking and Retail Traders}
+
+The distinction between System 1 and System 2 thinking, as described by Daniel Kahneman (\textit{Thinking, Fast and Slow. Doubleday Canada, 2011}), sheds light on different cognitive processes. System 1 is fast, automatic, and intuitive, relying on heuristics and pattern recognition, while System 2 is slower, analytical, and effortful. 
+
+Day traders in volatile markets, such as cryptocurrencies, may exemplify System 1 thinkers. These traders make rapid, emotion-driven decisions based on perceived patterns or "gut feelings"---relying on intuitive judgments rather than deep analytical models. This project aims to test whether intuitive decision-making can be cultivated and refined into reliable predictive skills using real market data.
+
+\section{Methodology}
+
+\subsection{Staging the Experiment: Testing System 1 Intuition}
+
+Participants engage in a gamified environment where financial returns are represented as three categories: High Returns, Insignificant Returns / No Loss, and Negative Returns. These categories are represented as cards within historical data sequences. For example, a set of 7 cards corresponds to a week-long series of past returns for a specific cryptocurrency. Players are presented with these sequences and are asked to predict the next "card" in the sequence. The game design emphasizes System 1 thinking---fast, intuitive decision-making---rather than deep analytical methods or subject knowledge.
+
+\subsection{Evaluating Intuition-Based Predictions}
+
+To evaluate player accuracy, their predictions are compared to a random baseline of 33.3\% (since there are three possible outcomes). Success is measured not just by raw accuracy but by consistency over multiple trials. Players who show sustained accuracy over hundreds of trials are identified as exhibiting superior predictive skills. Once a player demonstrates a breakthrough---several consecutive correct predictions beyond random chance---they are asked to predict future returns from on a historical sequence of past returns. At this stage, the player is presented with the last {n} historical targets and must predict target {x}---essentially forecasting the future return of a cryptocurrency asset. These forecasts are collected and analyzed to determine whether the identified "intuitive" players can generalize their predictive abilities beyond historical data.
+
+\subsection{Use in Data Science Competitions}
+
+The aggregated predictions from players are compiled into a signal dataset. These signals are submitted and benchmarked on platforms like Numer.ai, where they are compared against machine learning models. Numer.ai allows the evaluation of financial signals in a competitive environment, providing key metrics for accuracy and model performance. This process will test whether human intuition-based predictions can enhance machine learning models and improve predictive accuracy.
+
+\section{Expected Outcomes \& Hypotheses}
+
+\begin{itemize}
+    \item \textbf{Hypothesis 1:} Certain individuals will exhibit statistically significant intuition-based prediction skills.
+    \item \textbf{Hypothesis 2:} Aggregating predictions from top-performing players will improve predictive accuracy.
+    \item \textbf{Hypothesis 3:} Gamified training will improve participants' decision-making over time.
+\end{itemize}
+
+\section{Challenges \& Considerations}
+
+To estimate the number of players needed to generate tradable predictive signals (e.g., daily predictions for 200-300 assets), we must account for the fact that random guessing yields a 33.3\% accuracy rate. If we expect players to achieve at least a 50\% accuracy rate (above random chance), and only 5\% of players consistently perform at that level, we would need:
+
+\[
+\frac{300}{0.05} = 6,000 \text{ players}
+\]
+
+For a large dataset (e.g., 300 assets), we would need a redundancy of 3-5 reliable guessers per asset, resulting in over 1,000 players consistently guessing above random chance. This suggests the need for a funnel approach to attract a large number of casual players and identify those with real predictive skill.
+
+To minimize the player count and ensure the feasibility of the experiment, we propose starting with a small sample size and gradually scaling up.
+
+\section{MVP Stages}
+
+\subsection{Stage 1: Feasibility \& Initial Testing (Proof of Concept)}
+
+\begin{itemize}
+    \item \textbf{Goal:} Determine if a measurable "intuition breakthrough" exists among a small sample of players.
+    \item \textbf{Implementation:}
+    \begin{itemize}
+        \item Build a minimalist web app with 10-50 participants.
+        \item Focus on a psychology quiz or a simple ``test your intuition" game using historical financial data.
+        \item Track performance and analyze whether any players consistently outperform random guessing.
+    \end{itemize}
+    \item \textbf{Success Criteria:} At least one player demonstrates statistically significant prediction accuracy. If successful, we will explore potential growth and the possibility of submitting aggregated signals for benchmarking.
+\end{itemize}
+
+\subsection{Stage 2: Scaling \& Engagement (Early Gamification)}
+
+\begin{itemize}
+    \item \textbf{Goal:} Scale the project to test results on a larger scale with improved user experience.
+    \item \textbf{Implementation:}
+    \begin{itemize}
+        \item Expand to 100-500 players.
+        \item Introduce leaderboards, streak bonuses, and rewards to increase user engagement.
+        \item Use progressive difficulty to refine the accuracy of predictions over time.
+    \end{itemize}
+    \item \textbf{Success Criteria:} Identify a subset of consistent top performers and test if aggregated predictions can be benchmarked with external financial models.
+\end{itemize}
+
+\section{Conclusion}
+
+This project seeks to answer whether human intuition can be developed and refined through structured training to become a valuable tool in financial prediction. We aim to discover if intuition, when harnessed effectively, can improve prediction accuracy in complex markets. If successful, this approach could introduce a new way to augment machine learning models in finance, offering fresh insights and improved predictive power.
+
+\end{document}
+
