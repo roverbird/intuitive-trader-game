@@ -6,12 +6,12 @@ This repository is a placeholder for the code for **Stage 1 MVP** of a gamified 
 
 ### Overview
 
-The **Intuitive Trader Game** presents a novel approach to financial prediction: players predict market returns in the form of a card game, where each card corresponds to a potential return (high, insignificant, or negative). The goal is to investigate whether human intuition, when structured through gamification, can become a reliable tool for financial forecasting, and if we gather enough data, we aim at benchmarking it at Numer.ai Crypto Contest.
+The **Intuitive Trader Game** presents a novel approach to financial prediction: players predict market returns in the form of a card game, where each card corresponds to a potential return (high, insignificant, or negative). The goal is to investigate whether human intuition, when structured through gamification, can become a reliable tool for financial forecasting. If we gather enough data, we aim at benchmarking intuitive predictions at Numer.ai Crypto Contest.
 
 In this **Stage 1 MVP**, we will focus on gathering initial data to assess whether any players can outperform random guessing, and whether patterns of consistent success can emerge.
 
 ![Tarot Card Game](./assets/tarot.png)
-*Guessing tarot cards sequence as an abstraction of read trading data.*
+*Guessing tarot cards sequence staged as an abstraction of real world trading.*
 
 Read the White paper [Gamification of Financial Prediction: A Crowd-Sourced Experiment in Intuition](https://www.academia.edu/127714744/Gamification_of_Financial_Prediction_A_Crowd_Sourced_Experiment_in_Intuition)
 
