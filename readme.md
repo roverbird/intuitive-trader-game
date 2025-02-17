@@ -13,6 +13,8 @@ In this **Stage 1 MVP**, we will focus on gathering initial data to assess wheth
 ![Tarot Card Game](./assets/tarot.png)
 *Guessing tarot cards sequence as an abstraction of read trading data.*
 
+Read the White paper [Gamification of Financial Prediction: A Crowd-Sourced Experiment in Intuition](https://textvisualization.app/books/intuitive-trader-game.pdf)
+
 ### Key Features of the Paper
 
 The idea behind the project is to:
