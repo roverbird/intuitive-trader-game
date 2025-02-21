@@ -1,5 +1,7 @@
 # Intuitive Trader Game
 
+**Test you crypto market intuition for pumps and dumps on real data!**
+
 🔗[Play Intuitive Trader online](https://run.textvisualization.app/game/)
 
 In this game, players are tasked with predicting the color of the next block in a sequence based on historical financial data from crypto tradeing. The blocks represent actual future returns of a real asset:
