@@ -43,12 +43,12 @@ In this **Stage 1 MVP**, we will focus on gathering initial data to assess wheth
 
 Read the White paper [Gamification of Financial Prediction: A Crowd-Sourced Experiment in Intuition](https://www.academia.edu/127714744/Gamification_of_Financial_Prediction_A_Crowd_Sourced_Experiment_in_Intuition)
 
-### Key Features
+### Can Human Intuition beat Machile Learning (ML)?
 
 The idea behind the project is to:
 - **Gamify Financial Prediction**: Participants are presented with sequences of obfuscated, abstracted historical market data and are asked to predict future returns by choosing the next "block" in a shuffled deck of several possible outcomes (targets).
 - **Test Intuition-Based Predictions**: The game encourages intuitive decision-making (System 1 thinking) rather than analytical models or knowledge-based decisions.
-- **Data-Driven Validation**: The predictions of successful players are aggregated and evaluated against machine learning models in financial modeling competitions like Numer.ai.
+- **Data-Driven Validation**: The predictions of successful players are aggregated and _evaluated against machine learning models_ in financial modeling competitions like Numer.ai.
 - **Stage 1 MVP Goal**: The first phase focuses on testing whether we can identify players who consistently perform above random chance, signaling that their intuition might have predictive value.
 
 ### **Test your own intuition**  
