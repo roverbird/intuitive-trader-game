@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Game</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <!--- script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.js"></script--->
+    <script src="./game.js"></script>
+    <style>
+        body { text-align: center; padding: 20px; }
+        canvas { display: block; margin: auto; }
+        .square-container { display: flex; justify-content: center; gap: 10px; margin-top: 20px; }
+        .square { width: 50px; height: 50px; border: 1px solid #000; }
+        .black { background-color: black; }
+        .silver { background-color: silver; }
+        .golden { background-color: gold; }
+        .choices { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <p class="subtitle has-text-centered"><a href="https://github.com/roverbird"><img src="./logo-s-small.svg"></a></small></p>
+            <h1 class="title">Financial Prediction Game</h1>
+            <p class="subtitle">Predict the colour of next block in the sequence!</p
+            <p class="subtitle">Each block represents future returns of a real asset. Silver - insignificant returns, gold - large returns, black - negative returns. Based on historic data.</p
+>
+            <div id="sequence" class="square-container"></div>
+
+            <div id="choices" class="buttons choices" style="display: none;">
+            <p>Guess which color comes next?</p>
+                <button class="button is-dark" onclick="checkGuess(0)">Black</button>
+                <button class="button is-light" onclick="checkGuess(0.5)">Silver</button>
+                <button class="button is-warning" onclick="checkGuess(1)">Golden</button>
+            </div>
+            <button class="button is-primary" onclick="fetchSequence()">Start!</button>
+            <p id="feedback" class="mt-3"></p>
+            <p id="score" class="mt-3">Score: 0</p>
+
+
+        </div>
+    </section>
+    <script>
+
+    </script>
+</body>
+</html>
+

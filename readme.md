@@ -1,10 +1,27 @@
 # Intuitive Trader Game
 
-This repository is a placeholder for the code for **Stage 1 MVP** of a gamified platform designed to test and refine traders' intuition in financial predictions.
+🔗[Play Intuitive Trader online](https://run.textvisualization.app/game/)
 
-![Trader](./assets/trader.png)
+In this game, players are tasked with predicting the color of the next block in a sequence based on historical financial data. The blocks represent actual future returns of a real asset:
+
+- **Black** represents negative returns.
+- **Silver** represents insignificant returns.
+- **Golden** represents large returns.
+
+### How to Play:
+1. **Start the Game**: Click the "Start!" button to fetch a sequence of historical return data.
+2. **View the Sequence**: The game displays 12 colored blocks representing previous returns.
+3. **Make Your Prediction**: After viewing the blocks, you need to guess the color of the next block in the sequence (Black, Silver, or Golden).
+4. **Feedback**: If your guess is correct, your score increases. If incorrect, your score decreases.
+5. **Continue**: The game will load the next sequence, and you continue guessing until the end of the data.
+
+The goal is to predict the color of the next block correctly as many times as possible to accumulate points!.
 
 ### Overview
+
+This repository is for the code for **Stage 1 MVP** (early demo) of a gamified platform designed to test and refine traders' intuition in financial predictions, using financial data provided by AI hedgefund.
+
+![Trader](./assets/trader.png)
 
 The **Intuitive Trader Game** presents a novel approach to financial prediction: players predict market returns in the form of a card game, where each card corresponds to a potential return (high, insignificant, or negative). The goal is to investigate whether human intuition, when structured through gamification, can become a reliable tool for financial forecasting. If we gather enough data, we aim at benchmarking intuitive predictions at Numer.ai Crypto Contest.
 
@@ -18,13 +35,13 @@ Read the White paper [Gamification of Financial Prediction: A Crowd-Sourced Expe
 ### Key Features of the Paper
 
 The idea behind the project is to:
-- **Gamify Financial Prediction**: Participants are presented with sequences of obfuscated, abstracted historical market data and are asked to predict future returns by choosing the next "card" in a shuffled deck of several possible outcomes (targets).
+- **Gamify Financial Prediction**: Participants are presented with sequences of obfuscated, abstracted historical market data and are asked to predict future returns by choosing the next "block" in a shuffled deck of several possible outcomes (targets).
 - **Test Intuition-Based Predictions**: The game encourages intuitive decision-making (System 1 thinking) rather than analytical models or knowledge-based decisions.
 - **Data-Driven Validation**: The predictions of successful players are aggregated and evaluated against machine learning models in financial modeling competitions like Numer.ai.
 - **Stage 1 MVP Goal**: The first phase focuses on testing whether we can identify players who consistently perform above random chance, signaling that their intuition might have predictive value.
 
 ### **Test your own intuition**  
-by participating in the game (once Stage 1 MVP is live)!
+by participating in the game: [early Demo is live](https://run.textvisualization.app/game/)!
 
 ✨ **Please, star this repo, if you like the idea, if intrested in future colaboration and if you want to receive airdrops if the project grows** ✨
 
