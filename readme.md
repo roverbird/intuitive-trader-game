@@ -4,9 +4,9 @@
 
 In this game, players are tasked with predicting the color of the next block in a sequence based on historical financial data from crypto tradeing. The blocks represent actual future returns of a real asset:
 
-- **Black** represents negative returns (losses).
+- **Black** represents negative returns (losses), it's a **Dump**.
 - **Silver** represents insignificant returns (no significant change).
-- **Golden** represents large returns (gains).
+- **Golden** represents large returns (gains), it's a **Pump**.
 
 ---
 
