@@ -43,7 +43,7 @@ In this **Stage 1 MVP**, we will focus on gathering initial data to assess wheth
 
 Read the White paper [Gamification of Financial Prediction: A Crowd-Sourced Experiment in Intuition](https://www.academia.edu/127714744/Gamification_of_Financial_Prediction_A_Crowd_Sourced_Experiment_in_Intuition)
 
-### Can Human Intuition beat Machile Learning (ML)?
+### Can Human Intuition beat Machine Learning (ML)?
 
 The idea behind the project is to:
 - **Gamify Financial Prediction**: Participants are presented with sequences of obfuscated, abstracted historical market data and are asked to predict future returns by choosing the next "block" in a shuffled deck of several possible outcomes (targets).
