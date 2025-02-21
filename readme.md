@@ -20,7 +20,7 @@ In this game, players are tasked with predicting the color of the next block in 
    - Correct guesses for **Silver** returns result in a 5% profit.
    - No reward is given for guessing **Black** correctly, as it represents negative returns.
    - Incorrect guesses result in a penalty based on the actual return.
-5. **Switch Assets:** You can always switch to a different asset, which also uses real historical data. Your score remains the same, but you will see a different sequence. Maybe the new sequence is more promising and you can make a better guess?
+5. **Switch Assets:** By pressing **Start** again, you can always switch to a different asset, which also uses real historical data. Your score remains the same, but you will see a different sequence. Maybe the new sequence is more promising and you can make better guesses?
 6. **Continue:** The game loads the next sequence, and you continue guessing.
 7. **Goal:** The goal is to predict the color of the next block correctly as many times as possible to maximize your capital!
 
